@@ -10,7 +10,7 @@ cursor = conn.cursor()
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS todos (
     id INTEGER PRIMARY KEY,
-    title TEXT,
+    title TEXT, 
     completed BOOLEAN
   )
 """)
@@ -21,3 +21,5 @@ conn.commit()
 @app.get("/")
 def home():
   return {"message": "SQLite Database Integration with FastAPI"}
+
+
