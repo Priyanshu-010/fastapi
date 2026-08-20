@@ -1,0 +1,2 @@
+MAKE A PYTHON VIRTUAL ENVIRONMENT FIRST WITH "python -m venv .venv"
+and then install the packages with "pip install requirements.txt" or install in manually whatever packages are required
