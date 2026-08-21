@@ -35,3 +35,21 @@ def home(db: Session = Depends(get_db)):
   return {
     "message": "DB connected successfully"
   }
+
+# what is sqlalchemy and all this stuff?
+# It is a python library that is used to interact with databases.
+
+# What is create_engine?
+# It is a function that is used to create a connection to the database.
+
+# What is sessionmaker?
+# It is a function that is used to create a session object that is used to interact with the database.
+
+# What is declarative_base?
+# It is a class that is used to create a base class for all the models.
+
+# What is Base?
+# It is a base class that is used to create a table for all the models.
+
+# What is sessionLocal?
+# It is a session object that is used to interact with the database.

@@ -36,3 +36,22 @@ def get_news(page: int = 1, limit: int = 5):
     "total": len(title),
     "data": title[start:end]
   }
+
+# what is web crawling and pagination in web crawling:
+# Web crawling is the process of extracting data from a website.
+# Pagination is the process of dividing the data into pages.
+
+# Explanation of Web crawling : 
+# We are using the requests module to get the data from the website.
+# We are using the BeautifulSoup module to parse the data.
+# We are using the find_all method to get the data.
+# We are using the page parameter to get the page number.
+# We are using the limit parameter to get the limit.
+# We are using the total parameter to get the total number of data.
+# We are using the data parameter to get the data.
+
+
+# We are using the page parameter to get the page number.
+# We are using the limit parameter to get the limit.
+# We are using the total parameter to get the total number of data.
+# We are using the data parameter to get the data.
