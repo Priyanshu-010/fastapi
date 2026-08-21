@@ -53,3 +53,12 @@ def home(db: Session = Depends(get_db)):
 
 # What is sessionLocal?
 # It is a session object that is used to interact with the database.
+
+# Explantion of code and stuff line by line:
+
+# We are using the FastAPI framework to build the API.
+# We are using the create_engine function to create a connection to the database.
+# We are using the sessionmaker function to create a session object that is used to interact with the database.
+# We are using the declarative_base function to create a base class for all the models.
+# We are using the Base class to create a table for all the models.
+# We are using the sessionLocal function to create a session object that is used to interact with the database.

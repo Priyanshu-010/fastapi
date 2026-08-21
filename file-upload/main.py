@@ -48,3 +48,21 @@ def get_file(filename:str):
 @app.get("/")
 def home():
   return {"message": "Hello, World!"}
+
+# Code Explanation step by step
+
+# Step-1: Ensure uploads folder exists
+# Step-2: Static file setup
+# Step-3: File Upload api
+# Step-4: Get File URL API
+
+# Explanation of the code
+# We are using the FastAPI framework to build the API.
+# We are using the UploadFile class to get the file from the request.
+# We are using the File class to get the file from the request.
+# We are using the HTTPException class to return the error message.
+# We are using the os module to get the file path.
+# We are using the shutil module to copy the file to the uploads folder.
+# We are using the os module to get the file path.
+# We are using the os module to get the file path.
+# We are using the os module to get the file path.

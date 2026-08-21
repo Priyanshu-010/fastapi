@@ -71,3 +71,30 @@ def secure_data(user= Depends(verify_token)):
     "message": f"Hello, {user}, you have access to this protected route",
     "user": user
   }
+
+# What is OAuth2?
+# OAuth2 is a standard protocol for accessing protected resources
+
+# What is JWT
+# JWT is a JSON Web Token
+
+# Code Explanation 
+
+# We are using the OAuth2PasswordBearer class to get the token from the request.
+# We are using the verify_token function to verify the token.
+# We are using the verify_password function to verify the password.
+# We are using the create_token function to create the token.
+# We are using the hash_password function to hash the password.
+
+# We are using the FastAPI framework to build the API.
+# We are using the OAuth2PasswordBearer class to get the token from the request.
+# We are using the verify_token function to verify the token.
+# We are using the verify_password function to verify the password.
+# We are using the create_token function to create the token.
+# We are using the hash_password function to hash the password.
+# We are using the FastAPI framework to build the API.
+# We are using the OAuth2PasswordBearer class to get the token from the request.
+# We are using the verify_token function to verify the token.
+# We are using the verify_password function to verify the password.
+# We are using the create_token function to create the token.
+# We are using the hash_password function to hash the password.
